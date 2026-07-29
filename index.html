@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EuroBaby Names</title>
+<style>
+  :root{
+    --bg:#FDF6F0; --surface:#fff; --ink:#2B2233; --ink-soft:#6D6377;
+    --line:#EFE2DA; --rose:#F76F8E; --rose-deep:#E24A6E; --sage:#5FA588;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#171320;--surface:#221B2E;--ink:#F4EEF6;--ink-soft:#B7ABC4;
+          --line:#352B45;--rose:#FF7E9A;--rose-deep:#FF6386;--sage:#6FBE9C;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;padding:32px 20px 72px}
+  main{max-width:720px;margin:0 auto}
+  .mark{font-weight:800;font-size:20px;letter-spacing:-.02em;margin-bottom:28px}
+  .mark span{color:var(--rose)}
+  h1{font-size:30px;font-weight:800;letter-spacing:-.03em;margin:0 0 6px;text-wrap:balance}
+  .lede{color:var(--ink-soft);margin:0 0 32px}
+  h2{font-size:19px;font-weight:700;letter-spacing:-.02em;margin:34px 0 8px}
+  p,li{color:var(--ink-soft)}
+  strong{color:var(--ink);font-weight:600}
+  .key{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--sage);
+    border-radius:14px;padding:16px 18px;margin:22px 0}
+  .key p{margin:0;color:var(--ink);font-weight:600}
+  .links{list-style:none;padding:0;margin:24px 0}
+  .links li{margin:10px 0}
+  .links a{display:block;background:var(--surface);border:1px solid var(--line);
+    border-radius:14px;padding:14px 18px;text-decoration:none;color:var(--ink);font-weight:600}
+  .links a span{display:block;color:var(--ink-soft);font-weight:400;font-size:14px;margin-top:2px}
+  hr{border:0;border-top:1px solid var(--line);margin:52px 0 36px}
+  footer{color:var(--ink-soft);font-size:13px;margin-top:44px;line-height:1.6}
+  a{color:var(--rose-deep)}
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">EuroBaby<span> Names</span></div>
+
+  <h1>Choisir le prénom de bébé, à deux</h1>
+  <p class="lede">Des prénoms tirés des registres officiels de naissance en France, aux Pays-Bas, en Belgique et en Italie. Chacun fait défiler les prénoms de son côté, et seuls vos coups de cœur communs remontent.</p>
+
+  <div class="key">
+    <p>Aucun compte, aucune donnée collectée. Tout reste sur votre téléphone, et l'application fonctionne sans connexion.</p>
+  </div>
+
+  <ul class="links">
+    <li><a href="./support.html">Aide et questions fréquentes<span>Comment ça marche, et quoi faire si quelque chose ne va pas</span></a></li>
+    <li><a href="./confidentialite.html">Politique de confidentialité<span>Ce qui est enregistré, et où — la réponse courte : sur votre téléphone uniquement</span></a></li>
+  </ul>
+
+  <hr>
+
+  <div lang="en">
+    <h1 id="en">Pick baby's name together</h1>
+    <p class="lede">Names drawn from the official birth registers of France, the Netherlands, Belgium and Italy. Each of you swipes on your own, and only the names you both love come to the surface.</p>
+
+    <div class="key">
+      <p>No account, no data collected. Everything stays on your phone, and the app works offline.</p>
+    </div>
+
+    <ul class="links">
+      <li><a href="./support.html#en">Help and FAQ<span>How it works, and what to do if something goes wrong</span></a></li>
+      <li><a href="./confidentialite.html#en">Privacy policy<span>What is stored, and where — the short answer: on your phone only</span></a></li>
+    </ul>
+  </div>
+
+  <footer>
+    Données : INSEE (France) · SVB (Pays-Bas) · Statbel (Belgique, CC BY 4.0) ·
+    ISTAT (Italie, CC BY 3.0) · Wikidata (CC0).
+  </footer>
+</main>
+</body>
+</html>
